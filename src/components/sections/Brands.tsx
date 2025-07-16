@@ -15,7 +15,7 @@ const Brands = () => {
             <div className='flex flex-row justify-center flex-wrap bg-box-bg rounded-3xl max-w-4xl'>
                 {logos.map((logo, key) => (
                     <div key={key} className='p-4 sm:p-5 rounded-xl border-box-border group'>
-                        <img src={`src/assets/logos/${logo}.png`} width="100" height="60" alt={logo} className='h-7 w-auto sm:h-10 ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105'/>
+                        <img src={`./assets/logos/${logo}.png`} width="100" height="60" alt={logo} className='h-7 w-auto sm:h-10 ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105'/>
                     </div>
                 ))}
             </div>

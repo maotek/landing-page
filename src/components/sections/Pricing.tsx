@@ -13,7 +13,7 @@ const Pricing = () => {
             <Paragraph className='mt-4'>Choose the plan that's right for your business.</Paragraph>
         </Container>
         <Container className='mt-12'>
-        <div className='flex flex-col gap-6 md:flex-row w-full'>
+        <div className='flex flex-col gap-6 md:flex-row w-full items-stretch'> 
             {pricingPlans.map((plan, key) => (
                 <div key={key} className='relative group flex-1'>
                     <div className='bg-gradient-to-r from-blue-600 to-violet-600 p1 rounded-3xl h-full p-1'>
